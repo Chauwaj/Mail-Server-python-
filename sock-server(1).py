@@ -124,7 +124,7 @@ class SimpleMailServerProtocol():
             else:
                 print "Failure. Wrong password."
         else:
-            connection.sendall(b'You should register first')
+            connection.sendall(b'You should register')
             #connection.send(b'You should register first.')
 
     def add_message(self, content, connection):
